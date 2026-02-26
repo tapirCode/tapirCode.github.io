@@ -1,0 +1,63 @@
+body{
+  background-color: #291f15;
+}
+header {
+  text-align: center;
+  color: #ad8864;
+  font-family:'Open Sans',Sans-Serif ;
+}
+form{
+  text-align: center;
+}
+#search-input::placeholder{
+  color: #ad8864;
+  font-size: 15px;
+}
+
+#search-input{
+  width: 100%;
+  max-width:300px;
+  height: 32px;
+  margin:0 auto;
+  outline: none;
+  padding: 0px 0px 0px 10px;
+  border-radius: 15px;
+  border: 3px solid #362312;
+  background-color: #4b2e12;
+  color: #ad8864;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="search"]::-ms-clear {
+  display: none;
+}
+
+input[type="search"]::-moz-search-cancel-button {
+  display: none;
+}
+#search-result{
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+ white-space: pre-line;
+ list-style: none;
+ background-color:#4b2e12;
+ border: 1px solid #63472c;
+ border-radius: 3px;
+ margin-bottom: 5px;
+ padding-left:10px;
+}
+.menu-name{
+  color:#ad8864;
+}
+.menu-ingredients{
+  display: none;
+  background-color: #4b2e12;
+  color:#b26215;
+}

@@ -1,0 +1,224 @@
+{
+  "presentation_title": "PANDUAN KOMPOSISI SEPTEMBER 2025",
+  "categories": [
+    {
+      "category": "HOT COFFEE",
+      "menus": [
+        {
+          "name": "Hot Espresso",
+          "ingredients": [
+            "1 shot espresso (30 ml)",
+            "Heart, Body, Crema"
+          ],
+          "machine_notes": {
+            "Delonghi Top": "Menu My Coffee, Extra Strong, 1 Cup",
+            "Delonghi Evo & Dinamica": "Tekan tombol Espresso",
+            "Faema": "10 gr (1 shot) / 18-19 gr (2 shot)"
+          }
+        },
+        {
+          "name": "Hot Americano",
+          "ingredients": [
+            "1 shot espresso",
+            "150 ml air panas"
+          ],
+          "volume": "180 ml"
+        },
+        {
+          "name": "Hot Caffe Latte",
+          "ingredients": [
+            "1 shot espresso",
+            "120 ml fresh milk (foam medium)"
+          ]
+        },
+        {
+          "name": "Hot Cappuccino",
+          "ingredients": [
+            "1 shot espresso",
+            "120 ml fresh milk (foam tebal)"
+          ]
+        },
+        {
+          "name": "Hot Palm Sugar Latte",
+          "ingredients": [
+            "1 shot espresso",
+            "120 ml fresh milk",
+            "10 ml gula aren"
+          ]
+        },
+        {
+          "name": "Hot Caffe Mocha",
+          "ingredients": [
+            "1 sachet dark choco powder",
+            "150 ml air panas",
+            "1 shot espresso",
+            "50 ml fresh milk"
+          ]
+        },
+        {
+          "name": "Hot Salted Caramel Latte",
+          "ingredients": [
+            "1 shot espresso",
+            "15 ml syrup salted caramel",
+            "130 ml fresh milk"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ICED COFFEE",
+      "menus": [
+        {
+          "name": "Ice Americano",
+          "ingredients": [
+            "2 shot espresso",
+            "170 ml air mineral",
+            "250 gr es batu"
+          ]
+        },
+        {
+          "name": "Ice Cafe Latte",
+          "ingredients": [
+            "2 shot espresso",
+            "130 ml fresh milk",
+            "250 gr es batu"
+          ]
+        },
+        {
+          "name": "Ice Cappuccino",
+          "ingredients": [
+            "2 shot espresso",
+            "120 ml fresh milk",
+            "250 gr es batu"
+          ]
+        },
+        {
+          "name": "Ice Palm Sugar Latte",
+          "ingredients": [
+            "1 shot espresso",
+            "120 ml fresh milk",
+            "20 ml gula aren",
+            "250 gr es batu"
+          ]
+        },
+        {
+          "name": "Iced Salted Caramel Latte",
+          "ingredients": [
+            "1 shot espresso",
+            "170 ml fresh milk",
+            "20 ml syrup salted caramel",
+            "200-250 gr es batu"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "NON COFFEE",
+      "menus": [
+        {
+          "name": "Hot Chocolate Hazelnut",
+          "ingredients": [
+            "1 sachet Forestly Choco Hazelnut",
+            "150 ml air panas"
+          ]
+        },
+        {
+          "name": "Hot Green Tea Latte",
+          "ingredients": [
+            "1 sachet Forestly Greentea",
+            "150 ml air panas"
+          ]
+        },
+        {
+          "name": "Iced Greentea",
+          "ingredients": [
+            "1 sachet Forestly Greentea",
+            "50 ml air panas",
+            "100 ml air mineral",
+            "250 gr es batu"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "RTD SERIES",
+      "menus": [
+        {
+          "name": "RTD Iced Shaken Cheesepresso",
+          "ingredients": [
+            "15 gr powder frappe",
+            "1 shot espresso",
+            "20 ml syrup cheese",
+            "60 ml fresh milk",
+            "250 gr es batu"
+          ],
+          "method": "Shake 20-30 detik"
+        },
+        {
+          "name": "RTD Kopi Susu Awet Muda",
+          "ingredients": [
+            "15 ml gula aren",
+            "1 sachet creamer",
+            "1 shot espresso",
+            "1 kaleng susu Collagena",
+            "200 gr es batu"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "JUICE",
+      "menus": [
+        {
+          "name": "Juice Frozen Strawberry",
+          "ingredients": [
+            "200 ml air mineral",
+            "2 sachet gula cair",
+            "1 pack buah strawberry",
+            "250 gr es batu"
+          ],
+          "method": "Blender 35 detik"
+        },
+        {
+          "name": "Juice Frozen Mangga",
+          "ingredients": [
+            "200 ml air mineral",
+            "2 sachet gula cair",
+            "1 pack buah mangga",
+            "250 gr es batu"
+          ],
+          "method": "Blender 35 detik"
+        }
+      ]
+    },
+    {
+      "category": "FRAPPE SERIES",
+      "menus": [
+        {
+          "name": "Matcha Frappe",
+          "ingredients": [
+            "100 ml air mineral",
+            "1 sachet Forestly Greentea",
+            "20 gr powder frappe",
+            "50 ml fresh milk",
+            "250 gr es batu"
+          ],
+          "method": "Blender 35 detik"
+        },
+        {
+          "name": "Frappuchino",
+          "ingredients": [
+            "50 ml air mineral",
+            "1 sachet gula cair",
+            "20 gr powder frappe",
+            "120 ml fresh milk",
+            "2 shot espresso",
+            "250 gr es batu"
+          ],
+          "method": "Blender 35 detik"
+        }
+      ]
+    }
+  ],
+  "closing_note": "Pastikan semua menu dibuat sesuai juklak. Jaga kebersihan area (Hygiene & Sanitation). Lakukan upselling untuk meningkatkan sales."
+}
