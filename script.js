@@ -9,15 +9,20 @@ fetch('data.json')
       const searchQuery = e.target.value.trim().toLowerCase()
       searchResult.innerHTML = ""
       
+      if (searchQuery === "") return
+      
       categories.forEach(category => {
         category.menus.forEach(menu => {
           if (menu.name.toLowerCase().includes(searchQuery)) {
             const li = document.createElement('li')
+            const ingredients = menu.ingredients || []
             li.innerHTML = `
               <span class="menu-name">${menu.name}</span>
-              <ul class="menu-ingredients">
-                ${menu.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
-              </ul>
+              ${ingredients.length > 0 ? `
+                <ul class="menu-ingredients">
+                  ${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+                </ul>
+              ` : ''}
             `
             searchResult.appendChild(li)
           }
@@ -25,3 +30,4 @@ fetch('data.json')
       })
     })
   })
+  .catch(error => console.error('Error loading data:', error))
