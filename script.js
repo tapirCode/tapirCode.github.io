@@ -15,7 +15,7 @@ if (menu.name.toLowerCase().includes(searchQuery)) {
      const li= document.createElement('li')
      li.innerHTML = `
   <span class="menu-name">${menu.name}</span><br>
-  <span class="menu-ingredients">`${menu.ingredients.map(ingredient=> `<li>${ingredient}</li>`).join('')}</span><br>
+  <span class="menu-ingredients">${menu.ingredients.map(ingredient=> `<li>${ingredient}</li>`).join('')}</span><br>
 `;
      searchResult.appendChild(li)
      }
