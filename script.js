@@ -1,12 +1,5 @@
 const searchInput= document.getElementById('search-input')
 const searchResult= document.getElementById('search-result')
-const menuNames = document.querySelectorAll('.menu-name');
-menuNames.forEach(menuName => {
-  menuName.addEventListener('click', () => {
-    const ingredients = menuName.nextElementSibling;
-    ingredients.style.display = ingredients.style.display === 'block' ? 'none' : 'block';
-  });
-});
 
 fetch('data.json')
  .then(response => response.json())
